@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UTS Praktikum SIGWEB</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.1/dist/leaflet.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-rc.1/leaflet.js"></script>
+
+  <style>
+    #map {
+        width: 2000px;
+        height: 1000px;
+    }
+    table, tr, td {
+            border: 4px solid black;
+        }
+
+</style>
+
+</head>
+
+<body>
+
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Muhammad Rifki</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://Instagram.com/rifkimuhammaddd_" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-rifki-30b1541bb" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#user" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Essay</span></a></li>
+          <li><a href="#formulir" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Formulir</span></a></li>
+          <li><a href="#map" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Map</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Muhammad Rifki</h1>
+      <p><span class="typed" data-typed-items="20/456159/TK/50289"></span></p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Essay</h2>
+          <h4>Dibuat oleh:</h4>
+          <table>
+              <tr>
+                  <td><b>Nama</b></td>
+                  <td><b>Muhammad Rifki</b></td>
+              </tr>
+              <tr>
+                  <td><b>NIM</b></td>
+                  <td><b>20/456159/TK/50289</b></td>
+              </tr>
+          </table>      
+
+          <h4 style="color:red"><b>Deskripsi Singkat</b></h4>
+          <p style="color: black">WebGIS atau dikenal dengan <i>Website Geogrhapic Information System</i> merupakan sebuah aplikasi perkembangan dari GIS dalam bentuk website yang dapat diakses oleh para pengguna dengan hanya menggunakan internet. Pembuatan website tersebut dilakukan dengan menggunakan bahasa HMTL, CSS, dan JavaScript untuk menghasilkan tampilan yang interaktif. Materi terkait WebGIS ini merupakan salah satu hal penting yang harus dimiliki oleh seseorang sarjana lulusan teknik geodesi ataupun lainnya yang ingin fokus pada bidang Web Developer. Salah satu contoh website yang dibentuk dengan menggunakan bahasa pemrograman tersebut yaitu website Teknik Geodesi UGM yang dapat diakses pada link berikut ini:<a href="https://geodesi.ugm.ac.id">Link Website Teknik Geodesi UGM.</a> Berikut hal-hal yang dipelajari selama 7 minggu mengenai pembuatan WebGIS yaitu:</p>
+          
+          <h4 style="color:red"><b>Pengenalan HTML, CSS, dan JavaScript</b></h4>
+          <p><b>HTML atau <i>Hypertext Transfer Markup Language</i></b> merupakan sebuah bahasa pemrograman yang digunakan dalam pembuatan website dengan mengisikan elemen-elemen html didalamnya, yang ditandai dengan adanya <b>tag pembuka</b> dan <b>tag penutup</b>. HTML digunakan untuk menyusun kerangka dasar webiste, termasuk yang hendak ditampilkan pada sebuah halaman web. <b>CSS</b> merupakan bahasa yang digunakan untuk mengatur tampilan dari website yang dibentuk. Tampilan ini terkait dengan color, size, font, dan lainnya. Sedangkan <b>JavaScript</b> merupakan bahasa pemrograman yang digunakan untuk menjalankan suatu fungsi atau perintah terkait dengan aksi pada website tersebut.</p>
+          
+          <h4 style="color:red"><b>Pengenalan Boostrap</b></h4>
+          <P><b>Boostrap</b> merupakan salah satu komponen dari website untuk menghasilkan tampilan yang interaktif dan mudah dipahami oleh para pengguna. Pada bagian ini, penggunaan boostrap dilakukan pada saat melakukan pembentukan sebuah CV, yang mana berkaitan dengan navbar, button, dan lainnya. Pelaksanaan kegiatan praktikum mengenai hal tersebut dilakukan dengan menggunakan template yang telah tersedia pada web boostrap dan pengguna dapat melakukan pengeditan untuk menyesuaikan tampilan yang diinginkan.</P>
+          
+          <h4 style="color:red"><b>Pengenalan LeafletJS</b></h4>
+          <p><b>Leaflet</b> merupakan sekumpulan library yang berbasisi JavaScript untuk menampilkan peta atau informasi secara interaktif, sehingga dapat dengan mudah dipahami oleh para pengguna. </p>
+      
+        </div>
+
+    <section id="Formulir" class="Formulir section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Formulir</h2>
+        </div>
+
+        <form>
+          <h4 style="color:red"><b>Proses Validasi Pekerjaan</b></h4>
+          <p>Masukkan nama dan anda :</p>
+
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama"><br>
+      
+          <label for="password">Password:</label>
+          <input type="password" id="password"><br>
+            
+          <button onclick="Cek()">Klik</button>
+          <p id="cek"></p>
+      
+          <script>
+              function Cek() {
+                  var passwordInput = document.getElementById("password").value;
+                  var cek = document.getElementById("cek");
+      
+                  if (passwordInput === "Selesai") {
+                      window.alert("Password Benar");;
+                  }
+                  else
+                      window.alert("Error");;
+              }
+          </script>
+        </form>
+      </section>
+
+    <section id="map" class="map">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Map</h2>
+        </div>
+
+        <div id="map"></div>
+
+        <script>
+        var map = L.map('map').setView([-7.76389, 110.37268], 15);
+    
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+                    
+            var marker = L.marker([-7.76389, 110.37268]).bindPopup('Teknik Geodesi UGM').addTo(map);
+            var marker = L.marker([-7.77607, 110.37604]).bindPopup('Bundaran UGM').addTo(map);
+            var marker = L.marker([-7.77139, 110.37769]).bindPopup('Lapangan Pancasila').addTo(map);
+            var marker = L.marker([-7.77346, 110.38009]).bindPopup('Mesjid Kampus').addTo(map);
+            var marker = L.marker([-7.76934, 110.38447]).bindPopup('Stadion Pancasil').addTo(map);
+        </script>
+    </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Muhammad Rifki</span></strong>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">Muhammad Rifki</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+</body>
+
+</html>
